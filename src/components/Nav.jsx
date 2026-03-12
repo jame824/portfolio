@@ -5,13 +5,13 @@ const Nav = () => {
   return (
     <div>
       <Link to={{ pathname: '/' }}>
-        <p>Home</p>
+        <p>home</p>
       </Link>
       <Link to={{ pathname: '/experience' }}>
-        <p>Experience</p>
+        <p>experience</p>
       </Link>
       <Link to={{ pathname: '/projects' }}>
-        <p>Projects</p>
+        <p>projects</p>
       </Link>
     </div>
   );
