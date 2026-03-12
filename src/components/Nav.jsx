@@ -1,16 +1,15 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <div>
-      <Link to={{ pathname: '/' }}>
+      <Link to="/">
         <p>home</p>
       </Link>
-      <Link to={{ pathname: '/experience' }}>
+      <Link to="/experience">
         <p>experience</p>
       </Link>
-      <Link to={{ pathname: '/projects' }}>
+      <Link to="/projects">
         <p>projects</p>
       </Link>
     </div>
