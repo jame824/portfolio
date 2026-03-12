@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <a href="mailto:jajfu@ucdavis.edu">email</a>
       <a
         href="https://github.com/jame824"
@@ -16,7 +16,7 @@ const Footer = () => {
       >
         linkedin
       </a>
-    </div>
+    </footer>
   );
 };
 
