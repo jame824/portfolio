@@ -3,7 +3,7 @@
     "company": "Reddit",
     "role": "Contract Software Engineer",
     "start": "January 2026",
-    "end": "March 2026",
+    "end": "May 2026",
     "tech": ["Express", "Redis", "React", "Tailwind", "TypeScript"],
     "summary": "Shipped a live F1 scoreboard on Reddit's Developer Platform, serving 1M+ r/formula1 users with real-time race data.",
     "bullets": [
