@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import experiences from '../data/experience.json';
+import ExperienceItem from '../components/ExperienceItem';
 
 const Home = () => {
   return (
@@ -20,6 +21,9 @@ const Home = () => {
 
       <div>
         <h3>experience</h3>
+        {experiences.slice(0, 3).map((experience) => (
+          <ExperienceItem key={experience.company} experience={experience} />
+        ))}
         <Link to="/experience">
           <p>all experience</p>
         </Link>
@@ -27,17 +31,6 @@ const Home = () => {
 
       <div>
         <h3>projects</h3>
-        {experiences.slice(0, 3).map((experience) => (
-          <div key={experience.company}>
-            <h3>{experience.company.toLowerCase()}</h3>
-            <p>
-              {experience.role.toLowerCase()} ({experience.start.toLowerCase()}{' '}
-              - {experience.end.toLowerCase()})
-            </p>
-            <p>{experience.summary.toLowerCase()}</p>
-            <p>technologies used: {experience.tech.join(', ').toLowerCase()}</p>
-          </div>
-        ))}
         <Link to="/projects">
           <p>all projects</p>
         </Link>
