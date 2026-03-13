@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import experiences from '../data/experience.json';
+import projects from '../data/projects.json';
 import ExperienceItem from '../components/ExperienceItem';
+import ProjectItem from '../components/ProjectItem';
 
 const Home = () => {
   return (
@@ -31,6 +33,9 @@ const Home = () => {
 
       <div>
         <h3>projects</h3>
+        {projects.slice(0, 3).map((project) => (
+          <ProjectItem key={project.name} project={project} />
+        ))}
         <Link to="/projects">
           <p>all projects</p>
         </Link>
