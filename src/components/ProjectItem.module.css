@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.name {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.image {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.summary {
+  font-size: var(--font-size-s);
+  color: var(--text-secondary);
+}
+
+.tech {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  margin-top: 8px;
+}

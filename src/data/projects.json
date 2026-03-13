@@ -1,0 +1,24 @@
+[
+  {
+    "name": "TapIn",
+    "tech": ["SwiftUI", "Python", "Flask", "Firestore", "Google Cloud", "Claude API"],
+    "summary": "Fullstack iOS app with 100+ downloads delivering personalized news, events, and 3 daily games with multi-provider authentication.",
+    "bullets": [
+      "Shipped fullstack iOS app with 100+ downloads, delivering personalized news and events, and 3 daily games using SwiftUI, Python/Flask, Firestore, and Google Cloud with multi-provider authentication",
+      "Engineered live iCal event parsing, a daily Wordle with cloud-based leaderboard rankings, and Claude API integration for AI-generated news and event briefs via a Flask REST API, with end-to-end data flow from Firestore"
+    ],
+    "picture": "/tap-in.png",
+    "link": "https://apps.apple.com/us/app/tapin-ucd/id6759493072"
+  },
+  {
+    "name": "LinkUp",
+    "tech": ["TypeScript", "Next.js", "React", "Tailwind", "Firebase", "Firestore", "Cypress"],
+    "summary": "Fullstack web app helping UC Davis students find and create study sessions, built with Next.js and Firebase.",
+    "bullets": [
+      "Facilitated UC Davis student study sessions by creating a fullstack web application using TypeScript, Next.js, Tailwind and React, implemented with Firebase and Firestore to manage user and session data",
+      "Developed comprehensive unit testing suite using JavaScript with Cypress to ensure correct service behavior"
+    ],
+    "picture": "/link-up.png",
+    "link": "https://link-up-nine-sigma.vercel.app/"
+  }
+]

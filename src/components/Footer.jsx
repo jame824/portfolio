@@ -1,6 +1,8 @@
+import styles from './Footer.module.css';
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <a href="mailto:jajfu@ucdavis.edu">email</a>
       <a
         href="https://github.com/jame824"

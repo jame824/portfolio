@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 48px;
+  font-size: var(--font-size-s);
+  color: var(--text-muted);
+}
+
+.footer a {
+  color: var(--text-muted);
+}
+
+.footer a:hover {
+  color: var(--text);
+}

@@ -10,7 +10,8 @@
       "Developing a live F1 scoreboard for Reddit's Developer Platform, designed to serve 1M+ r/formula1 users, with data from the SportRadar API",
       "Reduced integration risk by building an Express mock API with Redis caching and pub/sub to simulate race data flows and validate the full pipeline before live data was available, accelerating backend development",
       "Enabled accurate scoreboard rendering by creating React Hooks to pull from realtime data channel and consolidating raw SportRadar API payloads into structured, frontend-ready data shapes"
-    ]
+    ],
+    "logo": "/Reddit_Logo.png"
   },
   {
     "company": "Grata",
@@ -19,6 +20,7 @@
     "end": "January 2026",
     "tech": ["TypeScript", "JavaScript", "React"],
     "link": "https://codelabdavis.medium.com/grata-98a6e09322f8",
+    "logo": "/grataliving_logo.jpeg",
     "summary": "Built core features for a Leasing Module in the Grata Admin Portal, giving property managers a centralized interface for applicants and documents.",
     "bullets": [
       "Allowed property managers to manage applicants, documents, and leasing from a centralized interface by building core features for a new Leasing Module within the Grata Admin Portal",
@@ -32,6 +34,7 @@
     "end": "August 2025",
     "tech": ["Python", "Docker", "FastAPI", "Gradio", "Svelte", "JavaScript", "Kubernetes"],
     "link": "https://github.com/nxnai/Voost",
+    "logo": "/nxn_labs_logo.jpeg",
     "summary": "Launched a full stack AI demo service and enhanced internal testing tools, enabling real-time showcasing for 300+ clients and investors.",
     "bullets": [
       "Enhanced internal testing platform by refactoring and adding functionality to UI and test cases using Gradio and Svelte, enabling more robust model experimentation for the engineering team in Scrum",
