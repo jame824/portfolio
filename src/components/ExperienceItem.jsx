@@ -1,16 +1,21 @@
-import React from 'react';
+import styles from './ExperienceItem.module.css';
 
 const ExperienceItem = ({
-  experience: { company, role, start, end, summary, tech },
+  experience: { company, role, start, end, summary, tech, logo },
 }) => {
   return (
-    <div>
-      <h3>{company.toLowerCase()}</h3>
-      <p>
-        {role.toLowerCase()} ({start.toLowerCase()} - {end.toLowerCase()})
-      </p>
-      <p>{summary.toLowerCase()}</p>
-      <p>technologies used: {tech.join(', ').toLowerCase()}</p>
+    <div className={styles.item}>
+      <div className={styles.header}>
+        {logo && <img className={styles.logo} src={logo} alt={company} />}
+        <div>
+          <h3 className={styles.company}>{company.toLowerCase()}</h3>
+          <p className={styles.role}>
+            {role.toLowerCase()} ({start.toLowerCase()} - {end.toLowerCase()})
+          </p>
+          <p className={styles.summary}>{summary.toLowerCase()}</p>
+          <p className={styles.tech}>{tech.join(', ').toLowerCase()}</p>
+        </div>
+      </div>
     </div>
   );
 };

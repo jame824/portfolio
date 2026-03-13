@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import experiences from '../data/experience.json';
 import projects from '../data/projects.json';
@@ -9,38 +8,44 @@ const Home = () => {
   return (
     <div>
       <div>
-        <h2>james fu</h2>
+        <h2
+          style={{
+            textDecoration: 'underline',
+            textDecorationColor: 'var(--red)',
+            textUnderlineOffset: '4px',
+            textDecorationThickness: '3px',
+          }}
+        >
+          james fu
+        </h2>
 
-        <p>uc davis, b.s. computer science, graduating 2026</p>
+        <p>uc davis, b.s. computer science, graduating june 2026</p>
 
-        <p>
-          consistent learner. here are some things i'm currently learning:
-          node.js, hip hop dance foundations, and how to cook a mean steak.
-          you'll probably catch me dancing, reading, cooking, or baking for
-          friends!
+        <p style={{ color: 'var(--text-muted)' }}>
+          <em>consistent learner.</em> here are some things i'm currently
+          learning: node.js, hip hop dance foundations, and how to cook a mean
+          steak. you'll probably catch me dancing, reading, cooking, or baking
+          for friends!
         </p>
       </div>
 
-      <div>
-        <h3>experience</h3>
+      <div className="section">
+        <h3 className="section-header">experience</h3>
         {experiences.slice(0, 3).map((experience) => (
           <ExperienceItem key={experience.company} experience={experience} />
         ))}
-        <Link to="/experience">
-          <p>all experience</p>
+        <Link className="section-link" to="/experience">
+          all experience →
         </Link>
       </div>
 
-      <div>
-        <h3>projects</h3>
-        {projects.slice(0, 3).map((project) => (
-          <div key={project.name}>
-            <img src={project.picture} alt={project.name} />
-            <ProjectItem project={project} />
-          </div>
+      <div className="section">
+        <h3 className="section-header">projects</h3>
+        {projects.map((project) => (
+          <ProjectItem key={project.name} project={project} />
         ))}
-        <Link to="/projects">
-          <p>all projects</p>
+        <Link className="section-link" to="/projects">
+          all projects →
         </Link>
       </div>
     </div>

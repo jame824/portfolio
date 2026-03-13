@@ -11,13 +11,15 @@
 
 /* Sections */
 .section {
-  margin-top: 48px;
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
 }
 
 .section-header {
   margin-bottom: 16px;
-  color: var(--text-muted);
-  font-size: var(--font-size-s);
+  color: var(--text);
+  font-size: var(--font-size-l);
   text-transform: lowercase;
 }
 
@@ -26,4 +28,10 @@
   margin-top: 16px;
   font-size: var(--font-size-s);
   color: var(--text-muted);
+  transition: color 0.2s, transform 0.2s;
+}
+
+.section-link:hover {
+  color: var(--text);
+  transform: translateX(4px);
 }

@@ -1,15 +1,23 @@
-import React from 'react';
+import styles from './ProjectItem.module.css';
 
-const ExperienceItem = ({ project: { name, summary, tech, link } }) => {
+const ProjectItem = ({ project: { name, summary, tech, link, picture } }) => {
   return (
-    <div>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        {name.toLowerCase()}
-      </a>
-      <p>{summary.toLowerCase()}</p>
-      <p>technologies used: {tech.join(', ').toLowerCase()}</p>
+    <div className={styles.item}>
+      <img className={styles.image} src={picture} alt={name} />
+      <div>
+        <a
+          className={styles.name}
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {name.toLowerCase()}
+        </a>
+        <p className={styles.summary}>{summary.toLowerCase()}</p>
+        <p className={styles.tech}>{tech.join(', ').toLowerCase()}</p>
+      </div>
     </div>
   );
 };
 
-export default ExperienceItem;
+export default ProjectItem;
