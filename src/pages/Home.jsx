@@ -34,7 +34,10 @@ const Home = () => {
       <div>
         <h3>projects</h3>
         {projects.slice(0, 3).map((project) => (
-          <ProjectItem key={project.name} project={project} />
+          <div key={project.name}>
+            <img src={project.picture} alt={project.name} />
+            <ProjectItem project={project} />
+          </div>
         ))}
         <Link to="/projects">
           <p>all projects</p>
