@@ -44,6 +44,29 @@
   margin-top: 4px;
 }
 
+.bullets {
+  margin-top: 4px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.bullets li {
+  font-size: var(--font-size-s);
+  color: var(--text-secondary);
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+.bullets li::marker {
+  color: var(--underline);
+}
+
+.link {
+  margin-top: 8px;
+  font-size: var(--font-size-s);
+  color: var(--text-secondary);
+}
+
 .tech {
   font-size: var(--font-size-xs);
   color: var(--text-muted);

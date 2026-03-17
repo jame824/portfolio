@@ -20,13 +20,13 @@ const ExperienceItem = ({
           </div>
           {isExperience ? (
             <div className={styles.summary}>
-              <ul>
+              <ul className={styles.bullets}>
                 {bullets.map((b) => (
                   <li key={b}>{b.toLowerCase()}</li>
                 ))}
               </ul>
               {link && (
-                <p>
+                <p className={styles.link}>
                   relevant links:{' '}
                   <a href={link} target="_blank" rel="noopener noreferrer">
                     {link}

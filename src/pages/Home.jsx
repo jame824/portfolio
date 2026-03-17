@@ -19,7 +19,9 @@ const Home = () => {
           james fu
         </h2>
 
-        <p>uc davis, b.s. computer science, graduating june 2026</p>
+        <p style={{ padding: '5px 0' }}>
+          uc davis, b.s. computer science, graduating june 2026
+        </p>
 
         <p style={{ color: 'var(--text-muted)' }}>
           <em>consistent learner.</em> here are some things i'm currently
@@ -41,7 +43,7 @@ const Home = () => {
 
       <div className="section">
         <h3 className="section-header">projects</h3>
-        {projects.map((project) => (
+        {projects.slice(0, 2).map((project) => (
           <ProjectItem key={project.name} project={project} />
         ))}
         <Link className="section-link" to="/projects">
