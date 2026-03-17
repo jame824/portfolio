@@ -20,7 +20,7 @@
     "end": "January 2026",
     "tech": ["TypeScript", "JavaScript", "React"],
     "link": "https://codelabdavis.medium.com/grata-98a6e09322f8",
-    "logo": "/grataliving_logo.jpeg",
+    "logo": "/grata.png",
     "summary": "Built core features for a Leasing Module in the Grata Admin Portal, giving property managers a centralized interface for applicants and documents.",
     "bullets": [
       "Allowed property managers to manage applicants, documents, and leasing from a centralized interface by building core features for a new Leasing Module within the Grata Admin Portal",
@@ -34,7 +34,7 @@
     "end": "August 2025",
     "tech": ["Python", "Docker", "FastAPI", "Gradio", "Svelte", "JavaScript", "Kubernetes"],
     "link": "https://github.com/nxnai/Voost",
-    "logo": "/nxn_labs_logo.jpeg",
+    "logo": "/nxnlabs.png",
     "summary": "Launched a full stack AI demo service and enhanced internal testing tools, enabling real-time showcasing for 300+ clients and investors.",
     "bullets": [
       "Enhanced internal testing platform by refactoring and adding functionality to UI and test cases using Gradio and Svelte, enabling more robust model experimentation for the engineering team in Scrum",
@@ -49,6 +49,7 @@
     "end": "August 2023",
     "tech": ["TensorFlow", "scikit-learn", "Transformers", "PyTorch", "Pandas", "NumPy", "NLTK"],
     "link": "https://reu.isi.edu/accomplishments/2023/fu.pdf",
+    "logo": "/isi.png",
     "summary": "Improved hate speech prediction accuracy by 433% and built large-scale social media data pipelines for AI-driven radicalization research.",
     "bullets": [
       "Advanced hate speech prediction accuracy by 433% by developing AI model with TensorFlow, scikit-learn, and Transformers, opening up early intervention into radicalization",
@@ -62,6 +63,7 @@
     "start": "June 2022",
     "end": "August 2022",
     "tech": ["Django", "Python", "Power BI"],
+    "logo": "/technique.png",
     "summary": "Developed a Django web app connecting underrepresented groups with mental health resources and built data systems for a local nonprofit.",
     "bullets": [
       "Connected underrepresented groups with essential mental health resources by developing Django web application",

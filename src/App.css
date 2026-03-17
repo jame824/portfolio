@@ -13,7 +13,7 @@
 .section {
   margin-top: 40px;
   padding-top: 40px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--underline);
 }
 
 .section-header {
@@ -21,6 +21,10 @@
   color: var(--text);
   font-size: var(--font-size-l);
   text-transform: lowercase;
+  text-decoration: underline;
+  text-decoration-color: var(--underline);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 3px;
 }
 
 .section-link {
@@ -33,5 +37,6 @@
 
 .section-link:hover {
   color: var(--text);
+  text-decoration-color: var(--underline);
   transform: translateX(4px);
 }

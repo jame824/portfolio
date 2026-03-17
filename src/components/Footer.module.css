@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
   padding-top: 48px;
   font-size: var(--font-size-s);
   color: var(--text-muted);

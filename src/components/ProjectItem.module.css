@@ -17,6 +17,7 @@
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
+  border: 1.5px solid var(--underline);
 }
 
 .summary {
