@@ -2,9 +2,9 @@
   {
     "name": "TapIn",
     "tech": ["SwiftUI", "Python", "Flask", "Firestore", "Google Cloud", "Claude API"],
-    "summary": "Fullstack iOS app with 100+ downloads delivering personalized news, events, and 3 daily games with multi-provider authentication.",
+    "summary": "Fullstack iOS app with 300+ downloads delivering personalized news, events, and 3 daily games with multi-provider authentication.",
     "bullets": [
-      "Shipped fullstack iOS app with 100+ downloads, delivering personalized news and events, and 3 daily games using SwiftUI, Python/Flask, Firestore, and Google Cloud with multi-provider authentication",
+      "Shipped fullstack iOS app with 300+ downloads, delivering personalized news and events, and 3 daily games using SwiftUI, Python/Flask, Firestore, and Google Cloud with multi-provider authentication",
       "Engineered live iCal event parsing, a daily Wordle with cloud-based leaderboard rankings, and Claude API integration for AI-generated news and event briefs via a Flask REST API, with end-to-end data flow from Firestore"
     ],
     "picture": "/tap-in.png",
@@ -20,5 +20,15 @@
     ],
     "picture": "/link-up.png",
     "link": "https://link-up-nine-sigma.vercel.app/"
+  },
+  {
+    "name": "React Practice",
+    "tech": ["TypeScript", "Next.js", "React", "Tailwind", "Appwrite", "Shadcn"],
+    "bullets": [
+      "Iteratively learned React by developing 2 fullstack web applications using TypeScript, Next.js, Tailwind, and React",
+      "Learned through AI assisted planning and workflows, daily conceptual breakdowns and reviews, and continuously rebuilding from scratch"
+    ],
+    "picture": "/react-practice.png",
+    "link": "https://github.com/jame824/react-practice"
   }
 ]
