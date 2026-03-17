@@ -11,7 +11,7 @@ const Home = () => {
         <h2
           style={{
             textDecoration: 'underline',
-            textDecorationColor: 'var(--red)',
+            textDecorationColor: 'var(--underline)',
             textUnderlineOffset: '4px',
             textDecorationThickness: '3px',
           }}
